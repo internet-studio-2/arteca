@@ -1,0 +1,94 @@
+
+/* small */
+      @media screen and (max-width: 39.9375em) {
+      	.hero{
+      		background: #fee700;
+      	}
+      }
+
+body{
+	font-family: "Roboto";
+	font-size: 1em;
+	
+}
+h1{
+	font-family: Roboto;
+}
+video{
+	  position: fixed;
+    top: 30%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+    background-color: black;
+    opacity: .60;
+}
+footer{
+	background-color:  black;
+	color: white;
+}
+/* custom styles*/
+
+.top-bar, .menu-text{
+	background-color: #fee700;
+}
+.menu{
+	width: 50%;
+}
+.hero{
+	text-align: center;
+	padding-bottom: 2em;
+}
+.icon{
+	width: 10em;
+}
+.button{
+	background-color: #ec1561
+}
+.features{
+	background-color: #0088f3;
+	color: white;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 1em;
+}
+.logos{
+	width: 10em
+}
+.cover{
+	width: 6em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.books{
+	background-color: white;
+	text-align: center;
+	padding-bottom: 2em;
+	padding-top: 1em;
+}
+.collaboration{
+	background-color: #fee700;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.logos{
+	width: 5em;
+}
+.contact{
+	background-color: white;
+}
+.social{
+	width: 2em;
+	vertical-align: right;
+}
+#mc_embed_signup{ 
+	clear:left; 
+	 }
