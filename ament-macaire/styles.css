@@ -1,0 +1,44 @@
+body {padding-top: 100px;
+	color:white;
+padding-left: 50px;
+		padding-right: 50px;
+		background-color: #ec1561;
+		font-family: Roboto, arial;}
+
+.row {background-color: #333333;}
+
+h1 {padding-top: 100px;
+	font-family: Roboto, sans-serif;
+	text-align: left;
+	color:#fee700 ;
+}
+
+
+h2 {color:#fee700;}
+
+h4 {color: #ec1561;
+	font-style:italic;}
+
+h5 {color:white;}
+
+img {padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto}
+
+.blue {background-color:#0088f3;}
+		}
+
+#mc_embed_signup{background-color:#0088f3; clear:left; font:14px Roboto,Arial,sans-serif; }
+
+.subscribe {color:#0088f3;}
+
+.topright {text-align: left;
+			}
+
+div {padding-left:10px;
+padding-right: 10px}
+
+.books {padding-left:-20px;
+		clear:all;}
