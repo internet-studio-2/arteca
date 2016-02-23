@@ -1,0 +1,55 @@
+/* Styles */
+
+@font-face {
+  font-family: "ArtecaText";
+  src:
+    local("San Francisco Text"),
+    local("Roboto"),
+    local("Corbel");
+}
+
+@font-face {
+  font-family: "ArtecaHeader";
+  src:
+    local("San Francisco Display"),
+    local("Roboto"),
+    local("Corbel");
+}
+
+body {
+	font-family: "ArtecaText", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "ArtecaHeader", sans-serif;
+}
+
+#header {
+	background-color: #fee700;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.required {
+	width: 250px;
+}
+
+#mce-EMAIL {
+	width: 350px;
+}
+
+form, input, label {
+	display: inline;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+	display: inline;
+}
+
+.clear {
+	display: inline;
+}
+
+#footer {
+	background-color: #e5e4e2;
+}
