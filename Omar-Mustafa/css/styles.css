@@ -1,0 +1,136 @@
+/* Custom styles by ME! */
+/* By Omar Mustafa*/
+
+body {
+	background-color: #303030;
+}
+p {
+	color: white;
+}
+.row {	
+	text-align: center;
+}
+.email-eta-inputbox {
+	margin-top: 10px;
+}
+.email-cta {
+	background: #303030;
+	height: 320px;
+	border: 1px solid white;
+	margin: 80px 50px;
+	padding: 60px 50px 10px 50px;
+}
+.email-cta-signupbtn {
+	margin-top: 20px;
+}
+.explorebutton {
+	background-color: #fee700;
+	color: #303030;
+}
+.explorebutton:hover {
+	background-color: #303030;
+	color: #fee700;
+	border: 1px solid white;
+}
+.button.alert {
+	background-color: #ec1561;
+	color: white;
+}
+.button.alert:hover {
+	background-color: white;
+	color: #ec1561;
+}
+h4 {
+	color: white;
+	font-weight: bolder;
+}
+.leftcolstuff {
+	width: 100%;
+	height: 320px;
+	margin: 80px 0 20px 0; /*align left col with right col box */
+	text-align: center;
+	border: 1px solid white;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.leftcolstuff .artecalogobox {
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px;
+    background: #303030;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.leftcolstuff .artecaheading {
+	color: white;
+    position: relative;
+    top: 30px;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+}
+.leftcolstuff .artecadescription {
+	color: white;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); 
+}
+.leftcolstuff .artecalogobox > img.artecalogo {
+    width: 80px; 
+}
+.leftcolstuff:hover {
+    border-color: #fee700; 
+}
+.leftcolstuff:hover .artecalogobox {
+    top: -20px; 
+}
+.leftcolstuff:hover .artecaheading {
+    top: -60px; 
+}
+.leftcolstuff:hover .artecadescription {
+    opacity: 1;
+	margin-top: -30px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+.buttonrow {
+	width: 30%;
+	margin-bottom: 15px;
+}
+footer {
+	background-color: #fee700;
+	color: #303030;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding-top: 15px;
+}
+footer p {
+	color: #303030;
+}
+a {
+	color: #303030;
+}
+footer h5 {
+	color: #303030;
+	font-weight: bolder;
+}
+footer .logos {
+	margin-top: 15px;
+}
+#footersubtext {
+	font-size: 0.7rem;
+	margin-top: -15px;
+}
+#topbtn {
+	font-size: 0.5rem;
+}
+	
