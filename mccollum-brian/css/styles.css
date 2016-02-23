@@ -1,0 +1,66 @@
+.indicates-required{
+	font-family: Roboto;
+}
+
+.button {
+	font-family: Roboto;
+}
+
+label {
+	font-family: Roboto;
+}
+
+.asterisk {
+	font-family: Roboto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 2rem;
+
+}
+
+h3 {
+    font-family: Roboto;
+    color: #ec1561;
+}
+
+#first {
+    background-color: #fee700;
+}
+
+#second {
+    padding-top: 50px;
+}
+
+#third {
+    padding-top: 450px;
+}
+
+#statement {
+    padding-top: 50px;
+}
+
+li {
+    font-size: 19px;
+    font-family: Roboto;
+}
+
+span {
+	color:#0088f3;
+}
+
+address {
+	font-family: Roboto;
+}
+
