@@ -1,0 +1,54 @@
+body
+	{
+	font-family: 'Roboto', sans-serif;
+}
+.menu {
+	float:right; color: #ec1561; margin-right: 25px;
+}
+
+.row {
+	background-color: #ec1561;
+}
+
+
+section {
+	float: right; margin-right: 175px; margin-top: 25px;
+}
+
+.callout {
+	background-color: #fee700; 
+}
+
+.callout2 {
+	background-color: #0088f3; color: white;
+}
+ 
+ h4 {
+ 	color:white;
+ }
+
+footer {
+    background-color:#0088f3;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    margin-right:120px;
+    margin-left: 120px;
+
+}
+
+.rows { 
+background-color: #0088f3; }
+
+.pic1 {
+	margin-left: 0px;
+}
+.pic2 {
+	margin-left: 500px;
+
+}
+
+a {
+	color: black;
+}
