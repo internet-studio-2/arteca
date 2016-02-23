@@ -1,0 +1,40 @@
+.logo {
+	float: left;
+	height: 86px;
+	width: 86px;
+}
+
+.signup {
+	font-family: "San Francisco Display", "Roboto", "Corbel", sans-serif;
+	float: center;	
+}
+
+.arteca {
+	font-family: "San Francisco Display", "Roboto", "Corbel", sans-serif;
+	float: left;	
+}
+
+.largeFont {
+	font-family: "San Francisco Display", "Roboto", "Corbel", sans-serif;
+}
+
+.smallFont {
+	font-family: "San Francisco Text", sans-serif;
+}
+
+.flavor {
+	float: right;
+	font-family: "San Francisco Text", sans-serif;	
+}
+
+.mainPic { 
+	float: right;
+	width: 240px;
+	height: 355px;
+	border: 1px solid black;
+}
+
+body {
+	background-color: #e5e4e2;
+}
+
