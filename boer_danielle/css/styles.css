@@ -1,0 +1,34 @@
+header {
+    background-color:#FDE700;
+    color:white;
+    text-align:left;
+    padding:5px;
+}
+
+footer {
+    background-color:#FDE700;
+    color:white;
+    text-align:center;
+    padding:5px;
+    clear:both;
+}
+
+html, body {
+	background-color: white;
+    margin: 0;
+    color:;
+}
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #404040;
+}
+
+
+
