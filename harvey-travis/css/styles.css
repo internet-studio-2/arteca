@@ -1,0 +1,80 @@
+body{
+	background-color: #fee700;
+	color: #35310B;
+}
+
+label h3{
+	color: white;
+}
+
+.signup{
+	border: solid 1px #0088f3; 
+	padding: 0; 
+	background-color: #0088f3;
+	color: white;
+}
+
+.signup p{
+	margin-left: 10px;
+
+}
+
+.signup-header{
+	background-color: #ec1561;
+	padding: 10px;
+	margin: 0;	
+	overflow: auto;
+}
+
+#mc_embed_signup{
+	width: auto;
+}
+
+.button{
+	background-color: #ec1561;
+	margin: 20px;
+}
+
+.arteca-email{
+	color: #ec1561;
+}
+
+.email-input{
+	padding: 20px;
+}
+
+.right{
+	text-align: right;
+}
+
+.platinum{
+	background-color: #0088f3;
+}
+
+.top-bar{
+	height: 100px;
+	background-color: #fee700;
+}
+
+.top-bar ul{
+	background-color: #fee700;
+}
+
+.arteca-logo{
+	height: auto;
+	max-width: 100%;
+	padding-bottom: 12px;
+}
+
+.arteca-title{
+	font-size: 2.0rem;
+}
+
+.arteca-blurb{
+	font-size: .8rem;
+	font-style: italic;
+}
+
+#mc_embed_signup_scroll{
+	background-color: #0088f3;
+}
