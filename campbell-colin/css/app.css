@@ -1,0 +1,231 @@
+body {
+  cursor: default;
+  background-color: #E5E4E2;
+}
+
+body > header {
+  background-color: #fee700;
+}
+
+body > header h1 {
+  color: #555;
+  opacity: 0;
+
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-duration: 2s;
+}
+
+body > header .columns {
+  text-align: center;
+}
+
+svg#logo {
+  height: 93vh;
+  max-width: 90%;
+  margin-top: 4vh;
+
+  animation-name: scaleIntroToHeader;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 1.5s;
+  animation-duration: 3s;
+}
+
+svg#logo path {
+  fill: #222;
+  fill-opacity: 0;
+  stroke: #111;
+  stroke-width: 1;
+  stroke-dasharray: 2048;
+  stroke-dashoffset: 2048;
+
+  animation-name: animateStokePath, animateFillColor;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-delay: 0s, 2s;
+  animation-duration: 12s, 2s;
+}
+
+.proposition {
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #eee;
+  box-shadow: #ccc 0px 2px 32px inset;
+}
+
+.proposition .main-line {
+  margin-left: -60%;
+  margin-bottom: 0;
+  opacity: 0;
+  text-align: center;
+  font-size: 1.3rem;
+
+  animation-name: slideInFromLeft;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-duration: 1.5s;
+}
+
+.catalog-preview {
+  background-color: #222;
+  overflow: hidden;
+}
+
+.catalog-preview .catalog-overlay {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.catalog-preview .catalog-overlay span {
+  background-color: rgba(0,0,0,0.7);
+  padding: 20px;
+  top: 191px;
+  position: relative;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 2px solid #ec1561;
+}
+
+.catalog-preview .books {
+  position: relative;
+  height: 440px;
+  width: 400%;
+  max-width: 400%;
+  overflow: hidden;
+  -webkit-filter: blur(5px);
+
+  /* enable GPU acceleration */
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: translate3d(0,0,0);
+
+  animation-name: scrollCatalog;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 120s;
+}
+
+.book-preview {
+  margin: 10px;
+}
+
+.book-cover {
+  height: 200px;
+  width: 140px;
+  background-size: cover;
+}
+
+.proposition .mailchimp-embed {
+  opacity: 0;
+
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 4s;
+  animation-duration: 2s;
+}
+
+.mailchimp-embed {
+  padding: 15px;
+  box-shadow: #ccc 0px 2px 32px inset;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.mailchimp-embed div.mce_inline_error {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  background-color: #ec1561;
+  color: white;
+}
+
+.mailchimp-embed .about-signup {
+  text-align: center;
+  color: #555;
+}
+
+.mailchimp-embed .signup-button {
+  text-align: center;
+}
+
+.additional-benefits {
+  text-align: center;
+}
+
+.additional-benefits .fa {
+  font-size: 5rem;
+  color: #0088f3;
+  margin: 30px;
+}
+
+.signup-bottom {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.button {
+  background-color: #0088f3;
+}
+
+footer {
+  height: 120px;
+}
+
+footer img {
+  height: 50px;
+}
+
+@keyframes slideInFromLeft {
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animateStokePath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes animateFillColor {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}
+
+@keyframes scaleIntroToHeader {
+  to {
+    height: 30vh;
+  }
+}
+
+@keyframes scrollCatalog {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
