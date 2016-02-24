@@ -1,0 +1,15 @@
+header {
+	background: yellow;
+	text-align: center;
+}
+
+footer {
+	background: white;
+	text-align: center;
+	padding: 5px;
+}
+
+body {
+	font: San-Serif, helvetica, Arial;
+	color: 363535;
+}
