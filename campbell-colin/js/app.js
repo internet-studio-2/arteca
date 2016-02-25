@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  for(var index = 0; index < 72; index++)
+  for(var index = 0; index < 512; index++)
   {
     var booksAvailable = 19;
     var bookIndex = (index % booksAvailable);

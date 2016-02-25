@@ -23,7 +23,7 @@ body > header .columns {
 }
 
 svg#logo {
-  height: 93vh;
+  height: 96vh;
   max-width: 90%;
   margin-top: 4vh;
 
@@ -84,7 +84,7 @@ svg#logo path {
   z-index: 1;
 }
 
-.catalog-preview .catalog-overlay span {
+.catalog-preview .catalog-overlay > div {
   background-color: rgba(0,0,0,0.7);
   padding: 20px;
   top: 191px;
@@ -92,6 +92,14 @@ svg#logo path {
   font-size: 2rem;
   border-radius: 5px;
   border: 2px solid #ec1561;
+}
+
+.catalog-preview .catalog-overlay span {
+  display: block;
+}
+
+.catalog-preview .catalog-overlay span:nth-child(2) {
+  font-size: 1rem;
 }
 
 .catalog-preview .books {
