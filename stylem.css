@@ -1,0 +1,14 @@
+
+h1 {
+	margin: 20px; padding: 20px; margin-bottom: 20px;
+}
+body {
+	background-image:url("meep.png"); font-family: open sans; padding-bottom: 50px;
+}
+
+h2 {
+	padding-top: 20px;
+}
+div.meep {
+	background-image: url("confectionary.png"); text-align: left; border:solid;
+}
