@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usability Test</title>
+<link rel="stylesheet" type="text/css" href="stylem.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<center><h1>Steps to Create the Perfect Usability Test</h1></center>
+<center><h5> By Kylie, Kymber, and Andrea</h5><center>
+<div class="meep">
+	<div>
+<h2> Step 1: Write The Usability Test</h2>
+<h4>Create tasks you want the user to perform in your test.</h4>
+<ul>
+	<li>Each of the tasks you appoint the user, should need at least six to nine clicks to complete the task. The tasks could be signing into the system, uploading a document, or searching for a specific area you might want to focus on.</li>
+	<li> You should explain the task without telling the user what to do and let them figure it out on their own.</li>
+	<li>List follow-up questions you might want to add in case the user does not reach or complete the exact task you wanted.</li>
+</ul>
+
+<h2>Step 2: Find the right participants for your usability test</h2>
+<h4>Find people that fit your target audience.</h4>
+<ul>
+	<li>Finding the right participants for your website or product, you must set a target audience, that way when testing your product you will know exactly who you want to test and see how they will react towards your product.</li>
+	<li>Choose people that will relate to your product, and give honest feedback.</li>
+</ul>
+
+<h2>Step 3: Perform the Usability Test</h2>
+<h4>Practice first. (Practice makes perfect)</h4>
+<ul>
+	<li>Before you skip into the testing, review the test before running it in front of your users. Work out any software or site problems before doing it in front of users.</li>
+	</ul>
+<h4>Change the tasks and keep the tests around 15-30 minutes.</h4>
+<ul>
+	<li>People can get annoyed if you take to long with the usability test (makes scenarios to try to get the user to complete the task if they get stuck.)</li>
+</ul>
+<h4>Do not guide the user.</h4>
+<ul>
+	<li>Use words that explain what they need to do, but are not contained within the site.</li>
+</ul>
+<h4>Ask questions that are not in your script.</h4>
+<ul>
+	<li>The advantage of usability testing is that you can ask questions that are also outside of your written script. You don't really know where or what the user will do. Instead of simple yes/no questions, ask open-ended questions, like "What do you think this would do?"
+</li>
+</ul> 
+<h4>Let the users speak their minds.</h4>
+<ul>
+	<li>Once the user starts speaking up their minds, they will help you understand where or why they ended up where they are. This also gives you feedback to any confusion they might have.</li>
+</ul>
+<h4>Record the sessions with some kind of screen recorder and take notes.
+</h4>
+<ul>
+	<li>This will guide you as the provider to see exactly where they will go when asked the questions from your script.</li>
+</li>
+</ul>
+<h2>Step 4: Evaluate your test results</h2>
+<h4>Look for patterns.</h4>
+<ul>
+	<li>Make sure that if more than two people can’t find a certain thing on your site, there must be a usability error. Looks for repeating feedback to see what exactly you might need to work on.</li>
+</ul>
+<h4>Combine testing with other data gathering methods.</h4>
+<ul>
+	<li>Use Google Analytics or other tools to help keep track of your site and this will also help you with your usability test and come up with better results.</li>
+</ul>
+<h4>Test your hypothesis again and again.</h4>
+<ul>
+	<li>If you feel like your usability needs more testing, then proceed. Usability testing is not a one time thing, it's a very repetitive process, since usability testing is not guaranteed to help your site succeed, repeat as much as needed.</li>
+</div>
+</div>
+
+
+</body>
+</html> 
